@@ -8,17 +8,16 @@
 
 ## QuickStart
 
-1. Add the initializing javascript file to your html:
+1. Add the initializing javascript files to your html:
 	
-		<script src="//qzonestyle.gtimg.cn/open/qcloud/video/live/h5/live_connect.js" charset="utf-8"	</script>;
+		<script src="//qzonestyle.gtimg.cn/open/qcloud/video/live/h5/live_connect.js" charset="utf-8"></script>;
+		<script src="/xxx/qcPlayer.js"></script>
 
 2. Create a container element with 'id', 'width' and 'height', for example:
 	
 		<div id="video-container" style="width:750px; height: 100%"></div>
 
 3. Add following code to your .js:
-
-		var qcPlayer = require('/xxx/qcPlayer.es6');
 
 		var player = qcPlayer.createPlayer('video-container',{
 		    'live_url': 'http://xxx/xxx/xxx.m3u8',
@@ -28,6 +27,12 @@
 
 
 ## Document
+
+### Properties
+
+#### qcPlayer.player
+
+player object created by qcPlayer.createPlayer(containerId, option).
 
 ### Methods
 
@@ -172,9 +177,33 @@
 			opaque: allow other dom elements be placed over the player
 		
 
-- **return**: A player object named 'SwfJsLink'.
+#### qcPlayer.player.resize(width, height)
 
+- **width**: _Number_. Width of the player.
+- **height**: _Number_. Height of the player.
 
+#### qcPlayer.player.play()
 
+Start playing video.
+Avaliable only in Flash player.
 
+return: 
 
+	200		success
+	0		player has not been initialized
+	-2		unknown command
+
+#### qcPlayer.player.stop()
+
+Stop playing video.
+Avaliable only in Flash player.
+
+#### qcPlayer.player.pause()
+
+Pause current plaing video.
+Avaliable only in Flash player.
+
+#### qcPlayer.player.resume()
+
+Continue to play puased video.
+Avaliable only in Flash player.
