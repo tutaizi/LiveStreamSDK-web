@@ -55,6 +55,15 @@
 			
 			Description: Optional. Backup url of the live stream.
 
+	
+	+ **controls:** 
+
+			Type: _String_.		
+			
+			Default: false.		
+			
+			Description: Optional. Player controller visibility switch.
+
 
 	+ **channel_id:** 
 
