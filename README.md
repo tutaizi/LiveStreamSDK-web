@@ -20,10 +20,10 @@
 	var qcPlayer = require('/xxx/qcPlayer.es6');
 
 	var player = qcPlayer.createPlayer('video-container',{
-	    'live_url': 'http://5430.liveplay.myqcloud.com/voov/54308014404.m3u8',
+	    'live_url': 'http://xxx/xxx/xxx.m3u8',
 	  });
 
-Size of player will be the same as its container.
+Size of the player will be the same as its container.
 
 
 ## Document
