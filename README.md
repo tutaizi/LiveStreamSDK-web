@@ -36,16 +36,16 @@ Size of player will be the same as its container.
 - containerId: _String_. ID of the target container.
 
 - option: _Object_. All of the following optional parameters are wrapped in this object:
-	+ **live_**url: 
+	+ **live_url:** 
 
-		Type: _String_.		
+	Type: _String_.		
 
 		Default: null.		
 
 		Description: Required when using url mode. M3U8 url of the live stream.
 
 
-	+ **live_**url2: 
+	+ **live_url2:** 
 
 		Type: _String_.		
 
@@ -54,7 +54,7 @@ Size of player will be the same as its container.
 		Description: Optional. Backup url of the live stream.
 
 
-	+ **chann**el_id: 
+	+ **channel_id:** 
 
 		Type: _String_.		
 
@@ -63,7 +63,7 @@ Size of player will be the same as its container.
 		Description: No need when using url mode. Required when using video ID mode.
 
 
-	+ **app_i**d: 
+	+ **app_id:** 
 
 		Type: _String_.		
 
@@ -72,7 +72,7 @@ Size of player will be the same as its container.
 		Description: No need when using url mode. Required when using video ID mode.
 
 
-	+ **width**: 
+	+ **width:** 
 
 		Type: _Number_.		
 
@@ -81,7 +81,7 @@ Size of player will be the same as its container.
 		Description: Optional. Set to container's width.
 
 	
-	+ **heigh**t: 
+	+ **height:** 
 
 		Type: _Number_.		
 
@@ -90,7 +90,7 @@ Size of player will be the same as its container.
 		Description: Optional. Set to container's height.
 
 	
-	+ **cache**_time: 
+	+ **cache_time:** 
 
 		Type: _Number_.		
 
@@ -99,7 +99,7 @@ Size of player will be the same as its container.
 		Description: Optional. Max cache_time before playing; Available only in Flash players on PC.
 
 	
-	+ **h5_st**art_patch: 
+	+ **h5_start_patch:** 
 
 		Type: _Object_.		
 
@@ -112,7 +112,7 @@ Size of player will be the same as its container.
 			stretch: false //Wether stretch the cover to fill the entire player or not; default value: false
 			}		
 
-	+ **wordi**ng:
+	+ **wording**:
 
 		Type: _Object_.
 
@@ -121,7 +121,7 @@ Size of player will be the same as its container.
 		Description: Optional. Can be custormized.
 
 
-	+ **volum**e:
+	+ **volume**:
 
 		Type: _Number_.		
 
@@ -139,7 +139,7 @@ Size of player will be the same as its container.
 		Description: Optional. HTTPS supporting switch(0: off, 1: on). 
 
 
-	+ **hide_**volume_tips:
+	+ **hide_volume_tips**:
 
 		Type: _Number_.
 
