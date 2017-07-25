@@ -36,7 +36,7 @@ Size of player will be the same as its container.
 - containerId: _String_. ID of the target container.
 
 - option: _Object_. All of the following optional parameters are wrapped in this object:
-	+ live_url: 
+	+ **live_**url: 
 
 		Type: _String_.		
 
@@ -45,7 +45,7 @@ Size of player will be the same as its container.
 		Description: Required when using url mode. M3U8 url of the live stream.
 
 
-	+ live_url2: 
+	+ **live_**url2: 
 
 		Type: _String_.		
 
@@ -54,7 +54,7 @@ Size of player will be the same as its container.
 		Description: Optional. Backup url of the live stream.
 
 
-	+ channel_id: 
+	+ **chann**el_id: 
 
 		Type: _String_.		
 
@@ -63,7 +63,7 @@ Size of player will be the same as its container.
 		Description: No need when using url mode. Required when using video ID mode.
 
 
-	+ app_id: 
+	+ **app_i**d: 
 
 		Type: _String_.		
 
@@ -72,7 +72,7 @@ Size of player will be the same as its container.
 		Description: No need when using url mode. Required when using video ID mode.
 
 
-	+ width: 
+	+ **width**: 
 
 		Type: _Number_.		
 
@@ -81,7 +81,7 @@ Size of player will be the same as its container.
 		Description: Optional. Set to container's width.
 
 	
-	+ height: 
+	+ **heigh**t: 
 
 		Type: _Number_.		
 
@@ -90,7 +90,7 @@ Size of player will be the same as its container.
 		Description: Optional. Set to container's height.
 
 	
-	+ cache_time: 
+	+ **cache**_time: 
 
 		Type: _Number_.		
 
@@ -99,7 +99,7 @@ Size of player will be the same as its container.
 		Description: Optional. Max cache_time before playing; Available only in Flash players on PC.
 
 	
-	+ h5_start_patch: 
+	+ **h5_st**art_patch: 
 
 		Type: _Object_.		
 
@@ -112,7 +112,7 @@ Size of player will be the same as its container.
 			stretch: false //Wether stretch the cover to fill the entire player or not; default value: false
 			}		
 
-	+ wording:
+	+ **wordi**ng:
 
 		Type: _Object_.
 
@@ -121,7 +121,7 @@ Size of player will be the same as its container.
 		Description: Optional. Can be custormized.
 
 
-	+ volume:
+	+ **volum**e:
 
 		Type: _Number_.		
 
@@ -130,7 +130,7 @@ Size of player will be the same as its container.
 		Description: Optional. Initialize volume(0 to 1). Avaliable only in Flash player.
 
 
-	+ https:
+	+ **https**:
 
 		Type: _Number_.		
 
@@ -139,7 +139,7 @@ Size of player will be the same as its container.
 		Description: Optional. HTTPS supporting switch(0: off, 1: on). 
 
 
-	+ hide_volume_tips:
+	+ **hide_**volume_tips:
 
 		Type: _Number_.
 
@@ -148,7 +148,7 @@ Size of player will be the same as its container.
 		Description: Optional. Volume tips visibility switch(0: off, 1: on). 
 
 
-	+ WMode:
+	+ **WMode**:
 
 		Type: _String_.		
 
@@ -157,7 +157,7 @@ Size of player will be the same as its container.
 		Description: Optional. 		
 
 			window: do not allow other dom elements be placed over the player
-			
+
 			opaque: allow other dom elements be placed over the player
 		
 
