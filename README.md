@@ -80,7 +80,7 @@
 			
 			Default: null.		
 			
-			Description: Optional. Set to container's width.
+			Description: Set to container's width.
 
 	
 	+ **height:** 
@@ -89,7 +89,7 @@
 			
 			Default: null.		
 			
-			Description: Optional. Set to container's height.
+			Description: Set to container's height.
 
 	
 	+ **cache_time:** 
