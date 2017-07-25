@@ -16,7 +16,7 @@
 	
 		<div id="video-container" style="width:750px; height: 100%"></div>
 
-3. Add following code in your .js:
+3. Add following code to your .js:
 
 		var qcPlayer = require('/xxx/qcPlayer.es6');
 
