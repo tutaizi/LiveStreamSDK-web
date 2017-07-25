@@ -38,7 +38,8 @@ Size of player will be the same as its container.
 - option: _Object_. All of the following optional parameters are wrapped in this object:
 	+ **live_url:** 
 
-	Type: _String_.		
+
+		Type: _String_.		
 
 		Default: null.		
 
