@@ -162,7 +162,7 @@
 			opaque: allow other dom elements be placed over the player
 		
 
-- return: A player object named 'SwfJsLink'.
+- **return**: A player object named 'SwfJsLink'.
 
 
 
