@@ -10,8 +10,7 @@
 
 1. Add the initializing javascript files to your html:
 	
-		<script src="//qzonestyle.gtimg.cn/open/qcloud/video/live/h5/live_connect.js" charset="utf-8"></script>;
-		<script src="/xxx/qcPlayer.js"></script>
+		<script src="http://voovfile-10064034.cossgp.myqcloud.com/h5/qcPlayer.js"></script>
 
 2. Create a container element with 'id', 'width' and 'height', for example:
 	
@@ -41,7 +40,7 @@ player object created by qcPlayer.createPlayer(containerId, option).
 
 - **containerId**: _String_. ID of the target container.
 
-- **option**: _Object_. All of the following optional parameters are wrapped in this object:
+- **option**: _Object_. All of the following parameters are wrapped in this object:
 
 	+ **live_url:** 
 
