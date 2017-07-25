@@ -7,15 +7,15 @@
 
 ## QuickStart
 
-1.Add the initializing javascript file to your html:
+1. Add the initializing javascript file to your html:
 	
 	<script src="//qzonestyle.gtimg.cn/open/qcloud/video/live/h5/live_connect.js" charset="utf-8"	</script>;
 
-2.Create a container element with 'id', 'width' and 'height', for example:
+2. Create a container element with 'id', 'width' and 'height', for example:
 	
 	<div id="video-container" style="width:750px; height: 100%"></div>
 
-3.Add following code in your .js:
+3. Add following code in your .js:
 
 	var qcPlayer = require('/xxx/qcPlayer.es6');
 
