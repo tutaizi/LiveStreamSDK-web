@@ -3,6 +3,7 @@
 - A live stream player based on qcVideo(qCloud).
 - Only one parameter required: an **m3u8** url.
 - Optional parameters provided to customize your player.
+- The player is avaliable both on desktop browsers and mobile browsers, which is implemented with Flash player on desktop and video element(H5) on mobile. 
 
 
 ## QuickStart
