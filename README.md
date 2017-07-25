@@ -40,7 +40,7 @@
 
 	+ **live_url:** 
 
-			Type: _String_.		
+			Type: String.		
 			
 			Default: null.		
 			
@@ -49,7 +49,7 @@
 
 	+ **live_url2:** 
 
-			Type: _String_.		
+			Type: String.		
 			
 			Default: null.		
 			
@@ -58,7 +58,7 @@
 	
 	+ **controls:** 
 
-			Type: _String_.		
+			Type: String.		
 			
 			Default: false.		
 			
@@ -67,7 +67,7 @@
 
 	+ **channel_id:** 
 
-			Type: _String_.		
+			Type: String.		
 			
 			Default: null.		
 			
@@ -76,7 +76,7 @@
 
 	+ **app_id:** 
 
-			Type: _String_.		
+			Type: String.		
 			
 			Default: null.		
 			
@@ -85,7 +85,7 @@
 
 	+ **width:** 
 
-			Type: _Number_.		
+			Type: Number.		
 			
 			Default: null.		
 			
@@ -94,7 +94,7 @@
 	
 	+ **height:** 
 
-			Type: _Number_.		
+			Type: Number.		
 			
 			Default: null.		
 			
@@ -103,7 +103,7 @@
 	
 	+ **cache_time:** 
 
-			Type: _Number_.		
+			Type: Number.		
 			
 			Default:0.3.		
 			
@@ -112,7 +112,7 @@
 	
 	+ **h5_start_patch:** 
 
-			Type: _Object_.		
+			Type: Object.		
 			
 			Default: null.		
 			
@@ -125,7 +125,7 @@
 
 	+ **wording**:
 
-			Type: _Object_.
+			Type: Object.
 			
 			Default: Please check the details in code.
 			
@@ -134,7 +134,7 @@
 
 	+ **volume**:
 
-			Type: _Number_.		
+			Type: Number.		
 			
 			Default: 0.5.		
 			
@@ -143,7 +143,7 @@
 
 	+ **https**:
 
-			Type: _Number_.		
+			Type: Number.		
 			
 			Default: 0.		
 			
@@ -152,7 +152,7 @@
 
 	+ **hide_volume_tips**:
 
-			Type: _Number_.
+			Type: Number.
 			
 			Default: 0.		
 			
@@ -161,7 +161,7 @@
 
 	+ **WMode**:
 
-			Type: _String_.		
+			Type: String.		
 			
 			Default: window.		
 			
