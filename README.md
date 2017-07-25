@@ -183,7 +183,7 @@ player object created by qcPlayer.createPlayer(containerId, option).
 
 #### qcPlayer.player.play()
 
-Start playing video.Avaliable only in Flash player.
+Start playing video. Avaliable only in Flash player.
 
 return: 
 
@@ -193,18 +193,18 @@ return:
 
 #### qcPlayer.player.stop()
 
-Stop playing video.Avaliable only in Flash player.
+Stop playing video. Avaliable only in Flash player.
 
 return: same as qcPlayer.player.play().
 
 #### qcPlayer.player.pause()
 
-Pause current plaing video.Avaliable only in Flash player.
+Pause current plaing video. Avaliable only in Flash player.
 
 return: same as qcPlayer.player.play().
 
 #### qcPlayer.player.resume()
 
-Continue to play puased video.Avaliable only in Flash player.
+Continue to play puased video. Avaliable only in Flash player.
 
 return: same as qcPlayer.player.play().
